@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,600i,700');
+
+body, html {
+    margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;   
+    font-size: 1.2vw;
+}
+
+/*Navigation Bar*/
+
+.bullet {
+	display: list-item;
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+a, a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	transition: all 0.3s ease 0s;
+}
+
+.navigation-text:hover {
+	cursor: pointer;
+}
+
+.navigation-text {
+	font-size: 1.2vw;
+	font-family: Open Sans;
+	font-weight: 600;
+	color: white;
+	padding-right: 2.8vw;
+	margin: 20px 10px;
+}
+
+.navigation-text:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.social-media-icon {
+	height: 2vw;
+	width: 2vw;
+    background-size: 100%;
+    background-position: center;
+    margin: 18px 0px 0px 2.8vw;
+}
+
+.social-media-icon:hover {
+	cursor: pointer;
+}
+
+#github {
+	background-image: url("../../assets/img/social-media-icons/github.png");
+}
+
+#twitter {
+	background-image: url("../../assets/img/social-media-icons/twitter.png");
+}
+
+#linkedin {
+	background-image: url("../../assets/img/social-media-icons/linkedin.png");
+}
+
+#instagram {
+	background-image: url("../../assets/img/social-media-icons/instagram.png");
+}
+
+/*Intro Information*/
+.intro-information {
+	color: white;
+	height: 43vw;
+	width: 100%;
+	background-image: url('../../assets/img/phoenix.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.7s ease-in;
+}
+
+.intro-description {
+	text-align: center;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	top: 58%;
+	width: 50%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.intro-h1 {
+	font-size: 3.5vw;
+	font-family: 'Open Sans';
+	font-weight: 700;
+}
+
+.intro-h2 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-style: italic;
+	font-size: 2.2vw;
+}
+
+/*About Information*/
+.intro-about-information {
+	color: white;
+	height: 350px;
+	width: 100%;
+	background-image: url('../../assets/img/phoenix.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.7s ease-in;
+}
+
+.about-information {
+	margin-top: 20px;
+	position: relative;
+	height: 350px;
+	width: 100%;
+}
+
+.about-title {
+	text-align: center;
+	font-size: 32px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.about-description {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 80%;
+	font-size: 22px;
+}
+
+.about-information-container {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	top: 50%;
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+	height: 550px;
+}
+
+/*Work page information*/
+
+.company-information {
+	margin: 0 auto;
+	position: relative;
+	width: 85%;
+	height: 100%;
+}
+
+.about-work-information {
+	height: 800px;
+	width: 100%;
+}
+
+.image-work-title {
+	text-align: center;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 2.8vw;
+	padding-top: 3vw;
+	padding-bottom: 2vw;
+/*	background-color: blue;
+*/}
+
+
+.image-work-description {
+	font-size: 1.5vw;
+	padding-bottom: 4vw;
+}
+
+.work-image {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.about-work-image{
+	height: 100%;
+	padding-bottom: 7vw;
+	width: 85%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.about-work-image img {
+	width: 100%;
+	height: 100%;
+}
+
+.about-work-title {
+	text-align: center;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 2.8vw;
+}
+
+.about-work-text {
+	font-size: 1.5vw;
+	padding-top: 2vw;
+}
+
+.about-work-description {
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+}
+
+
+#company-work {
+	height: 100%;
+}
+
+.intro-work-information {
+	color: white;
+	height: 35vw;
+	width: 100%;
+    background-attachment: fixed;
+    background-position: top-center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: background-image 0.7s ease-in;
+}
+
+/*Work Information*/
+.work-information {
+	height: 50vw;
+	width: 100%;
+}
+
+.information-container {
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	top: 50%;
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+	height: 95%;
+}
+
+.image-container {
+	float: right;
+	width: 65%;
+	height: 100%;    
+    background-position: top-center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: background-image 0.7s ease-in;
+}
+
+
+#netease-image {
+	background-image: url('../../assets/img/mage-supreme/home.png');
+}
+
+#gamespot-image {
+	background-image: url('../../assets/img/gamespot/home.png');
+}
+
+
+#manifest-image {
+	background-image: url('../../assets/img/manifest/home.png');
+}
+
+
+#teach-image {
+	background-image: url('../../assets/img/247teach/home.png');
+}
+
+
+#design-challenges-image {
+	background-image: url('../../assets/img/design-challenges/home.png');
+}
+
+#graphic-design-image {
+	background-image: url('../../assets/img/graphic-design/home.png');
+}
+
+.description-container {
+	float: left;
+	width: 33%;
+	height: 100%;
+}
+
+.work-title {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 2.8vw;
+	margin-top: 8vw;
+	width: 100%;
+}
+
+.work-subtitle {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-style: italic;
+	font-size: 2vw;
+}
+
+.work-description {
+	font-size: 1.7vw;
+	height: 17vw;
+	width: 100%;
+}
+
+/**Work Page Information**/
+
+#about-cover-photo {
+	background-image: url('../../assets/img/about/cover.png');
+}
+
+#ms-cover-photo {
+	background-image: url('../../assets/img/mage-supreme/cover.png');
+}
+
+#gamespot-cover-photo {
+	background-image: url('../../assets/img/gamespot/cover.png');
+}
+
+#teach-cover-photo {
+	background-image: url('../../assets/img/247teach/cover.png');
+}
+
+#manifest-cover-photo {
+	background-image: url('../../assets/img/manifest/cover.png');
+}
+
+#design-cover-photo {
+	background-image: url('../../assets/img/design-challenges/cover.png');
+}
+
+#illustrations-cover-photo {
+	background-image: url('../../assets/img/graphic-design/cover.png');
+}
+
+.intro-work-description {
+	text-align: center;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	top: 58%;
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.work-description-button-container {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 1.5vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  	align-items: center;
+	margin: 0 auto;
+	margin-top: 5vw;
+}
+
+.work-description-button-container > div {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+  	width: 20vw;
+	height: 4.5vw;
+	border: 5px solid white;
+  }
+
+  .work-description-context{
+  	width: 70%;
+  	padding-top: 2vw;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 1.5vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+  	align-items: center;
+	margin: 0 auto;
+}
+
+/**Buttons**/
+
+.button {
+	transition: all 0.3s ease 0s;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 1.5vw;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	margin: 0 auto;
+  	width: 15vw;
+	height: 4.5vw;
+}
+
+.button:hover {
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+
+}
+
+#contact-button {
+  	border: 0.4vw solid white;
+	margin-top: 3vw;
+}
+
+#contact-button:hover {
+    color: black;
+    background-color: white;
+}
+
+#more-info-button {
+	float: left;
+  	border: 0.4vw solid #333;
+	background-color: white;
+}
+
+#more-info-button:hover {
+    color: white;
+    background-color: #333;
+}
+
+
+#gamespot {
+	background-color: #fafafa;
+}
+
+#manifest {
+	background-color: #fafafa;
+}
+
+#color1 {
+	background-color: #fafafa;
+}
+
+.page-footer {
+	background-color: #333;
+	height: 5.4vw;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 1vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
