@@ -94,6 +94,12 @@ a, a:hover, a:active, a:visited, a:focus {
 	background-image: url("../../assets/img/social-media-icons/instagram.png");
 }
 
+#myIframe {
+	margin: 0 auto;
+	display: block;
+	height: 50vw;
+	width: 100%;
+}
 /*Intro Information*/
 .intro-information {
 	color: white;
