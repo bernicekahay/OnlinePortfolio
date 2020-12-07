@@ -293,6 +293,9 @@ a, a:hover, a:active, a:visited, a:focus {
     transition: background-image 0.7s ease-in;
 }
 
+#pixelberry-image {
+	background-image: url('../../assets/img/pixelberry_home.png');
+}
 
 #netease-image {
 	background-image: url('../../assets/img/mage-supreme/home.png');
@@ -426,6 +429,45 @@ a, a:hover, a:active, a:visited, a:focus {
 
 /**Buttons**/
 
+#app-store-container {
+	margin-top: 1.5vw;
+	text-align: center;
+}
+
+.app-store-button {
+	color: white;
+	background-color: #333;
+	display: inline-block;
+	text-align: center;
+	line-height: 4.5vw;
+	width: 15vw;
+	height: 4.5vw;
+	transition: all 0.3s ease 0s;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 1.5vw;
+	margin-right: 2vw;
+}
+
+.app-store-button:hover {
+	cursor: pointer;
+}
+
+.coming-soon-label {
+	transition: all 0.3s ease 0s;
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 1.5vw;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	margin: 0 auto;
+  	width: 20vw;
+	height: 4.5vw;
+	float: left;
+	background-color: white;
+}
+
 .button {
 	transition: all 0.3s ease 0s;
 	font-family: 'Open Sans';
@@ -490,4 +532,23 @@ a, a:hover, a:active, a:visited, a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*Pixelberry store buttons*/
+
+.app-button {
+ 	 width: 45%;
+ 	 color: #fff;
+ 	 margin: 20px 10px;
+ 	 text-align: left;
+  	border-radius: 5px;
+  	text-decoration: none;
+  	font-family: "Lucida Grande", sans-serif;
+  	font-size: 10px;
+  	text-transform: uppercase;
+  	background-color: #101010;
+  	transition: background-color 0.25s linear;
+   background-color: #454545;
+  }
+
 }
